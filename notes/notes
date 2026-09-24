@@ -1,0 +1,5 @@
+import datetime
+print("Current date and time:", datetime.datetime.now())
+print(today := datetime.date.today())
+last_year = datetime.date(2025,9,10)
+print("Last year:", last_year)
